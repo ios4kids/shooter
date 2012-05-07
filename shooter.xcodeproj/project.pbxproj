@@ -15,6 +15,9 @@
 		B6CB77A515587B8700871E81 /* ShooterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CB77A415587B8700871E81 /* ShooterAppDelegate.m */; };
 		B6CB77A815587B8700871E81 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6CB77A615587B8700871E81 /* MainStoryboard.storyboard */; };
 		B6CB77AB15587B8700871E81 /* ShooterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CB77AA15587B8700871E81 /* ShooterViewController.m */; };
+		B6CB77B315587BD500871E81 /* ShooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CB77B215587BD500871E81 /* ShooterView.m */; };
+		B6CB77B51558816300871E81 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = B6CB77B41558816300871E81 /* player.png */; };
+		B6CB77BC155887D400871E81 /* ShooterPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CB77BB155887D400871E81 /* ShooterPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,20 @@
 		B6CB779415587B8700871E81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B6CB779615587B8700871E81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B6CB779815587B8700871E81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B6CB779C15587B8700871E81 /* shooter-Info.plist */ = {isa = PBXFileReference; path = "shooter-Info.plist"; sourceTree = "<group>"; };
+		B6CB779C15587B8700871E81 /* shooter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "shooter-Info.plist"; sourceTree = "<group>"; };
 		B6CB779E15587B8700871E81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B6CB77A015587B8700871E81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B6CB77A215587B8700871E81 /* shooter-Prefix.pch */ = {isa = PBXFileReference; path = "shooter-Prefix.pch"; sourceTree = "<group>"; };
-		B6CB77A315587B8700871E81 /* ShooterAppDelegate.h */ = {isa = PBXFileReference; path = ShooterAppDelegate.h; sourceTree = "<group>"; };
+		B6CB77A215587B8700871E81 /* shooter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "shooter-Prefix.pch"; sourceTree = "<group>"; };
+		B6CB77A315587B8700871E81 /* ShooterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShooterAppDelegate.h; sourceTree = "<group>"; };
 		B6CB77A415587B8700871E81 /* ShooterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShooterAppDelegate.m; sourceTree = "<group>"; };
 		B6CB77A715587B8700871E81 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		B6CB77A915587B8700871E81 /* ShooterViewController.h */ = {isa = PBXFileReference; path = ShooterViewController.h; sourceTree = "<group>"; };
+		B6CB77A915587B8700871E81 /* ShooterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShooterViewController.h; sourceTree = "<group>"; };
 		B6CB77AA15587B8700871E81 /* ShooterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShooterViewController.m; sourceTree = "<group>"; };
+		B6CB77B115587BD500871E81 /* ShooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShooterView.h; sourceTree = "<group>"; };
+		B6CB77B215587BD500871E81 /* ShooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShooterView.m; sourceTree = "<group>"; };
+		B6CB77B41558816300871E81 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		B6CB77BA155887D400871E81 /* ShooterPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShooterPlayer.h; sourceTree = "<group>"; };
+		B6CB77BB155887D400871E81 /* ShooterPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShooterPlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +88,11 @@
 				B6CB77A315587B8700871E81 /* ShooterAppDelegate.h */,
 				B6CB77A415587B8700871E81 /* ShooterAppDelegate.m */,
 				B6CB77A615587B8700871E81 /* MainStoryboard.storyboard */,
+				B6CB77B115587BD500871E81 /* ShooterView.h */,
+				B6CB77B215587BD500871E81 /* ShooterView.m */,
 				B6CB77A915587B8700871E81 /* ShooterViewController.h */,
+				B6CB77BA155887D400871E81 /* ShooterPlayer.h */,
+				B6CB77BB155887D400871E81 /* ShooterPlayer.m */,
 				B6CB77AA15587B8700871E81 /* ShooterViewController.m */,
 				B6CB779B15587B8700871E81 /* Supporting Files */,
 			);
@@ -90,6 +102,7 @@
 		B6CB779B15587B8700871E81 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B6CB77B41558816300871E81 /* player.png */,
 				B6CB779C15587B8700871E81 /* shooter-Info.plist */,
 				B6CB779D15587B8700871E81 /* InfoPlist.strings */,
 				B6CB77A015587B8700871E81 /* main.m */,
@@ -150,6 +163,7 @@
 			files = (
 				B6CB779F15587B8700871E81 /* InfoPlist.strings in Resources */,
 				B6CB77A815587B8700871E81 /* MainStoryboard.storyboard in Resources */,
+				B6CB77B51558816300871E81 /* player.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +177,8 @@
 				B6CB77A115587B8700871E81 /* main.m in Sources */,
 				B6CB77A515587B8700871E81 /* ShooterAppDelegate.m in Sources */,
 				B6CB77AB15587B8700871E81 /* ShooterViewController.m in Sources */,
+				B6CB77B315587BD500871E81 /* ShooterView.m in Sources */,
+				B6CB77BC155887D400871E81 /* ShooterPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

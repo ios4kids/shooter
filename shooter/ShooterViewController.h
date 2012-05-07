@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ShooterView.h"
+#import "ShooterPlayer.h"
 
-@interface ShooterViewController : UIViewController
+@interface ShooterViewController : UIViewController {
+
+    CGPoint position;
+}
+
+@property (weak, nonatomic) IBOutlet ShooterView *shooter_view;
+@property (nonatomic, retain) IBOutlet ShooterPlayer *player;
 
 @end

@@ -10,6 +10,10 @@
 
 @implementation ShooterViewController
 
+@synthesize shooter_view = _shooter_view;
+
+@synthesize player;
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -22,10 +26,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+
 }
 
 - (void)viewDidUnload
 {
+    [self setShooter_view:nil];
+    [self setPlayer:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -55,6 +63,12 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+-(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+    [player touchesMoved:touches withEvent:event];
+     
+
 }
 
 @end
