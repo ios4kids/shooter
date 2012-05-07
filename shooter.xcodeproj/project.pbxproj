@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6CB779515587B8700871E81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CB779415587B8700871E81 /* UIKit.framework */; };
+		B6CB779715587B8700871E81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CB779615587B8700871E81 /* Foundation.framework */; };
+		B6CB779915587B8700871E81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CB779815587B8700871E81 /* CoreGraphics.framework */; };
+		B6CB779F15587B8700871E81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6CB779D15587B8700871E81 /* InfoPlist.strings */; };
+		B6CB77A115587B8700871E81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CB77A015587B8700871E81 /* main.m */; };
+		B6CB77A515587B8700871E81 /* ShooterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CB77A415587B8700871E81 /* ShooterAppDelegate.m */; };
+		B6CB77A815587B8700871E81 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6CB77A615587B8700871E81 /* MainStoryboard.storyboard */; };
+		B6CB77AB15587B8700871E81 /* ShooterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CB77AA15587B8700871E81 /* ShooterViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6CB779015587B8700871E81 /* shooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CB779415587B8700871E81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6CB779615587B8700871E81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6CB779815587B8700871E81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6CB779C15587B8700871E81 /* shooter-Info.plist */ = {isa = PBXFileReference; path = "shooter-Info.plist"; sourceTree = "<group>"; };
+		B6CB779E15587B8700871E81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6CB77A015587B8700871E81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6CB77A215587B8700871E81 /* shooter-Prefix.pch */ = {isa = PBXFileReference; path = "shooter-Prefix.pch"; sourceTree = "<group>"; };
+		B6CB77A315587B8700871E81 /* ShooterAppDelegate.h */ = {isa = PBXFileReference; path = ShooterAppDelegate.h; sourceTree = "<group>"; };
+		B6CB77A415587B8700871E81 /* ShooterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShooterAppDelegate.m; sourceTree = "<group>"; };
+		B6CB77A715587B8700871E81 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B6CB77A915587B8700871E81 /* ShooterViewController.h */ = {isa = PBXFileReference; path = ShooterViewController.h; sourceTree = "<group>"; };
+		B6CB77AA15587B8700871E81 /* ShooterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShooterViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6CB778D15587B8700871E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CB779515587B8700871E81 /* UIKit.framework in Frameworks */,
+				B6CB779715587B8700871E81 /* Foundation.framework in Frameworks */,
+				B6CB779915587B8700871E81 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6CB778515587B8700871E81 = {
+			isa = PBXGroup;
+			children = (
+				B6CB779A15587B8700871E81 /* shooter */,
+				B6CB779315587B8700871E81 /* Frameworks */,
+				B6CB779115587B8700871E81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6CB779115587B8700871E81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6CB779015587B8700871E81 /* shooter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6CB779315587B8700871E81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6CB779415587B8700871E81 /* UIKit.framework */,
+				B6CB779615587B8700871E81 /* Foundation.framework */,
+				B6CB779815587B8700871E81 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6CB779A15587B8700871E81 /* shooter */ = {
+			isa = PBXGroup;
+			children = (
+				B6CB77A315587B8700871E81 /* ShooterAppDelegate.h */,
+				B6CB77A415587B8700871E81 /* ShooterAppDelegate.m */,
+				B6CB77A615587B8700871E81 /* MainStoryboard.storyboard */,
+				B6CB77A915587B8700871E81 /* ShooterViewController.h */,
+				B6CB77AA15587B8700871E81 /* ShooterViewController.m */,
+				B6CB779B15587B8700871E81 /* Supporting Files */,
+			);
+			path = shooter;
+			sourceTree = "<group>";
+		};
+		B6CB779B15587B8700871E81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6CB779C15587B8700871E81 /* shooter-Info.plist */,
+				B6CB779D15587B8700871E81 /* InfoPlist.strings */,
+				B6CB77A015587B8700871E81 /* main.m */,
+				B6CB77A215587B8700871E81 /* shooter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6CB778F15587B8700871E81 /* shooter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6CB77AE15587B8700871E81 /* Build configuration list for PBXNativeTarget "shooter" */;
+			buildPhases = (
+				B6CB778C15587B8700871E81 /* Sources */,
+				B6CB778D15587B8700871E81 /* Frameworks */,
+				B6CB778E15587B8700871E81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shooter;
+			productName = shooter;
+			productReference = B6CB779015587B8700871E81 /* shooter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6CB778715587B8700871E81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B6CB778A15587B8700871E81 /* Build configuration list for PBXProject "shooter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6CB778515587B8700871E81;
+			productRefGroup = B6CB779115587B8700871E81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6CB778F15587B8700871E81 /* shooter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6CB778E15587B8700871E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CB779F15587B8700871E81 /* InfoPlist.strings in Resources */,
+				B6CB77A815587B8700871E81 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6CB778C15587B8700871E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CB77A115587B8700871E81 /* main.m in Sources */,
+				B6CB77A515587B8700871E81 /* ShooterAppDelegate.m in Sources */,
+				B6CB77AB15587B8700871E81 /* ShooterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6CB779D15587B8700871E81 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6CB779E15587B8700871E81 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6CB77A615587B8700871E81 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6CB77A715587B8700871E81 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6CB77AC15587B8700871E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6CB77AD15587B8700871E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6CB77AF15587B8700871E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shooter/shooter-Prefix.pch";
+				INFOPLIST_FILE = "shooter/shooter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6CB77B015587B8700871E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shooter/shooter-Prefix.pch";
+				INFOPLIST_FILE = "shooter/shooter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6CB778A15587B8700871E81 /* Build configuration list for PBXProject "shooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CB77AC15587B8700871E81 /* Debug */,
+				B6CB77AD15587B8700871E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6CB77AE15587B8700871E81 /* Build configuration list for PBXNativeTarget "shooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CB77AF15587B8700871E81 /* Debug */,
+				B6CB77B015587B8700871E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6CB778715587B8700871E81 /* Project object */;
+}
