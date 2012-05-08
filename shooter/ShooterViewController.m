@@ -65,8 +65,9 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+// this is the code that moves the player
 -(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
-    [player touchesMoved:touches withEvent:event];
+    [player touchesMoved:touches withEvent:event]; //pass the info to the player to handle
      
 
 }

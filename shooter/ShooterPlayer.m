@@ -21,8 +21,8 @@
 
 -(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
     UITouch *touch = [[event allTouches] anyObject];
-    CGPoint point = [touch locationInView:touch.view];
-    self.center = CGPointMake(point.x, self.center.y);
+    CGPoint point = [touch locationInView:touch.view]; //get the point so that we can get the x coordinate
+    self.center = CGPointMake(point.x, self.center.y); //use the x coordinate to move the player to that spot
 }
 
 /*
